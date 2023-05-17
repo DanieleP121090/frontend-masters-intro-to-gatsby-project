@@ -1,0 +1,25 @@
+:root{
+    --black: #333;
+    --gray: #555;
+    --white: #fff;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    color: var(--gray);
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0; 
+}
+a{
+    color: var(--black);
+    text-decoration: none;
+}
+h1, h2, h3{
+    color: var(--black);
+}
+
